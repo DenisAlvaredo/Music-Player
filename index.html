@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>Music Player</title>
 </head>
 <body>
@@ -14,18 +13,21 @@
             <h2 id="title">title</h2>
             <p id="author">author</p>
         </div>
-    
+        
         <div id="bar">
             <p id="start">0:00</p>
             <p id="duration">9:99</p>
+            <input type="range" id="progress" step="0.1" value="0" max="100">
         </div>
-    
+        <audio id="audio" src=""></audio>
+        
         <div id="keypad">
-    
-            <button id="prev"><img src="src/Stop_and_play_fill-1.svg" alt="prev"></button>
-            <button id="play"><img src="src/Play_fill.svg" alt="play"></button>
-            <button id="next"><img src="src/Stop_and_play_fill.svg" alt="next"></button>
+            
+            <button id="prev" onclick="changeSong(-1)"><img src="src/Stop_and_play_fill-1.svg" alt="prev"></button>
+            <button id="play-pause"><img src="src/Play_fill.svg" alt="play"></button>
+            <button id="next"  onclick="changeSong(1)"><img src="src/Stop_and_play_fill.svg" alt="next"></button>
         </div>
     </div>
 </body>
+<script src="index.js"></script>
 </html>
