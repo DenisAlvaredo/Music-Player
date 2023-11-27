@@ -9,20 +9,21 @@
 <body>
     <div id="container">
         <div id="data">
-            <img src="" alt="cover" id="cover" width="300px">
+            <img src="" alt="cover" id="cover">
             <h2 id="title">title</h2>
             <p id="author">author</p>
         </div>
         
         <div id="bar">
-            <p id="start">0:00</p>
-            <p id="duration">9:99</p>
-            <input type="range" id="progress" step="0.1" value="0" max="100">
+            <div id="time">
+                <p id="start">0:00</p>
+                <p id="duration">9:99</p>
+            </div>
+            <progress id="progress" value="0" max="100"></progress>
         </div>
         <audio id="audio" src=""></audio>
         
         <div id="keypad">
-            
             <button id="prev" onclick="changeSong(-1)"><img src="src/Stop_and_play_fill-1.svg" alt="prev"></button>
             <button id="play-pause"><img src="src/Play_fill.svg" alt="play"></button>
             <button id="next"  onclick="changeSong(1)"><img src="src/Stop_and_play_fill.svg" alt="next"></button>

@@ -3,3 +3,99 @@
 * {
     font-family: 'Inter';
 }
+
+body, #container, #data, #bar, #time, #keypad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/bg.jpg');
+    justify-content: center;
+}
+
+#container {
+    background-color: #212936;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+#cover {
+    width: 15rem;
+    border-radius: 15px;
+    margin-bottom: 7px;
+}
+
+#title, #author, #start, #duration {
+    margin: 0.2rem 0;
+}
+
+#author, #start, #duration {
+    color: #4D5562;
+}
+
+#start, #duration {
+    font-size: 0.625rem;
+}
+
+#title {
+    color: #E5E7EB;
+    font-size: 1rem;
+}
+
+#author {
+    font-size: 0.75rem;
+}
+
+#bar {
+    margin-top: 7px;
+    width: 100%;
+    align-items: initial;
+}
+
+#time {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+progress {
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar{
+    height: 5px;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #C93B76;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px rgba( 201, 59, 118, 0.5 )
+}
+
+#keypad {
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+#prev, #next {
+    cursor: pointer;
+    background-color: #212936;
+    border-style: none;
+}
+
+#play-pause {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #C93B76;
+    border-style: none;
+    padding: 7px 8.75px;
+    box-shadow: 1px 1px 5px 3px rgba( 201, 59, 118, 0.2 )
+}

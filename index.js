@@ -38,7 +38,7 @@ function updateProgressBar() {
 }
 
 function updatePlayPauseButton() {
-    playPauseButton.src = isPlaying ? 'src/Play_fill.svg' : 'src/Play_fill.svg';
+    playPauseButton.innerHTML = isPlaying ? '<img src="src/Stop_fill.svg" alt="pause">' : '<img src="src/Play_fill.svg" alt="play">';
 }
 
 playPauseButton.addEventListener('click', function () {

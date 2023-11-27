@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>Stop_and_play_fill_reverse-svg</title>
+	<defs>
+		<image  width="3" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAQBAMAAAAhRNi5AAAAAXNSR0IB2cksfwAAAB5QTFRF5+fn4+Pjzs7O4+Pj4uLi4eHh4uLi5eXl4+Pj5eXlDi+gYgAAAAp0Uk5TR6sUwP9oqlWoUrtHPJkAAAAYSURBVHicY2BUYDAJYEgpIIxaJjAwKgAAD7wLy3bgryUAAAAASUVORK5CYII="/>
+		<image  width="3" height="16" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAQBAMAAAAhRNi5AAAAAXNSR0IB2cksfwAAAB5QTFRFzs7O4+Pj5+fn4eHh4uLi4+Pj7e3t4ODg5eXl5ubmJ2hR/QAAAAp0Uk5TFKtHaP/AVqlSp1U0kKYAAAAYSURBVHicY2BUYDAJYEgpIIxaJjAwKgAAD7wLy3bgryUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="12" y="8"/>
+	<use id="Layer" href="#img2" x="17" y="8"/>
+</svg>
