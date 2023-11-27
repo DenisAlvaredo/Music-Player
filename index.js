@@ -2,14 +2,14 @@ var songs = [{
     title: "Lost in the City Lights",
     author: "Cosmo Sheldrake",
     duration: "1:12",
-    ubication: "/src/lost-in-city-lights-145038.mp3",
-    cover: "/src/cover-1.png"
+    ubication: "src/lost-in-city-lights-145038.mp3",
+    cover: "src/cover-1.png"
 }, {
     title: "Forest Lubally",
     author: "Lesfm",
     duration: "2:18",
-    ubication: "/src/forest-lullaby-110624.mp3",
-    cover: "/src/cover-2.png"
+    ubication: "src/forest-lullaby-110624.mp3",
+    cover: "src/cover-2.png"
 }]
 
 var currentIndex = 0;
